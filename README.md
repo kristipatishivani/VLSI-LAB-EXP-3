@@ -91,7 +91,8 @@ Output Waveform
 # 4 Bit Multiplier
 ![image](https://github.com/kristipatishivani/VLSI-LAB-EXP-3/assets/161432255/4df9b185-32fd-4aca-aebb-6311a9b78ecf)
 
-Result
+Result:
+
 Hence the 2 bit multiplier and 4 bit multiplier are simulated and synthesised using Xilinx ISE.
 
 
