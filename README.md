@@ -1,10 +1,14 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+EXP-3
+
+date:
+
+                                                          SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 AIM: 
- To simulate and synthesis multiplier using Xilinx ISE.
+ To simulate and synthesis multiplier using vivado 2023.3.
 
 APPARATUS REQUIRED:
-Xilinx 14.7
-Spartan6 FPGA
+
+vivado software.
   
 PROCEDURE:
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
@@ -24,13 +28,7 @@ Logic Diagram
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-4 Bit Multiplier
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
-**Verilog code**
-# 2 bit Multiplier
+Verilog code
 ```
 module ha(a,b,sum,c);
 input a,b;
@@ -47,7 +45,18 @@ ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
 ha ha2(a[1] &b[1],w1,c[2],c[3]);
 endmodule
 ```
-# 4 Bit Multiplier
+
+Output
+
+![image](https://github.com/kristipatishivani/VLSI-LAB-EXP-3/assets/161432255/e08ffd69-3dc5-432b-960f-05d8def8b7d1)
+
+Logic Diagram
+2 bit Multiplier
+
+![image](https://github.com/kristipatishivani/VLSI-LAB-EXP-3/assets/161432255/8381c0eb-8694-43d1-a56d-ce2c8b813adc)
+
+
+Verilog code
 ```
 module ha(a,b,c,s);
 input a,b;
@@ -85,11 +94,9 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
 Output Waveform
 ```
+OUTPUT
 
-Output Waveform
-# 2 bit Multiplier
-![image](https://github.com/kristipatishivani/VLSI-LAB-EXP-3/assets/161432255/8ac5731f-afea-4625-bd99-ff31c7f0fefe)
-# 4 Bit Multiplier
+
 ![image](https://github.com/kristipatishivani/VLSI-LAB-EXP-3/assets/161432255/12637e2a-c11f-4143-a475-e45bb29443a6)
 
 Result:
