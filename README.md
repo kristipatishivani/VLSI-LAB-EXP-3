@@ -2,7 +2,7 @@ EXP-3
 
 date:
 
-                                                          SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+                                 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 AIM: 
  To simulate and synthesis multiplier using vivado 2023.3.
 
