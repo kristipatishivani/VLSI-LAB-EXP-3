@@ -4,7 +4,7 @@ date:
 
                                  SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 AIM: 
- To simulate and synthesis multiplier using vivado 2023.3.
+ To simulate and synthesis multiplier using STEP:1 Launch the Vivado 2023.2. 
 
 APPARATUS REQUIRED:
 
@@ -103,7 +103,7 @@ OUTPUT
 ![image](https://github.com/kristipatishivani/VLSI-LAB-EXP-3/assets/161432255/12637e2a-c11f-4143-a475-e45bb29443a6)
 
 Result:
-       Hence the 2 bit multiplier and 4 bit multiplier are simulated and synthesised using Xilinx ISE.
+       Hence the 2 bit multiplier and 4 bit multiplier are simulated and synthesised using Vivado 2023.2.
 
 
 
